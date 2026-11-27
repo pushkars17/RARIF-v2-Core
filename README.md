@@ -165,8 +165,7 @@ RARIF-Framework/
 ├── 📄 main.py                           # End-to-end CLI pipeline entry point
 ├── 📄 app.py                            # Streamlit + Plotly dashboard
 ├── 📄 requirements.txt                  # Python dependencies
-├── 📄 .gitignore                        # Ignored cache, venv & local DB files
-└── 📄 README.md                         # Project documentation
+└── 📄 .gitignore                        # Ignored cache, venv & local DB files
 ```
 
 ---
