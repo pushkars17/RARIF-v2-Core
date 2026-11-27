@@ -1,6 +1,8 @@
 # 🚦 RARIF Framework v2 — Road Accident Risk Intelligence & Forecasting 🛣️📊
 
 > **Pre-accident road risk intelligence, explainable AI, telemetry storage, and interactive decision-support dashboard** engineered on **20,000 Indian road accident records (2022–2025)** across **8 major Indian cities** (*Pune, Mumbai, Chandigarh, Chennai, Delhi, Bangalore, Hyderabad, Kolkata*).
+>
+> **🌐 Live Dashboard:** [https://rarif-framework.streamlit.app/](https://rarif-framework.streamlit.app/)
 
 Instead of analyzing only post-crash outcomes, **RARIF Framework v2** models **pre-incident road geometry, traffic density, weather, visibility, cyclical temporal patterns, seasonal context, festival indicators, and primary risk causes** to predict risk tiers (**Low**, **Medium**, **High**), compute a **0–100 Composite Risk Index**, rank **SHAP risk drivers**, and persist analytical tables in **DuckDB**.
 
@@ -136,7 +138,7 @@ weather_fog          | ███                                          0.0847
 ## 🗄️ DuckDB Persistence & Command-Center Dashboard 🎛️📉
 
 * **🗄️ DuckDB Telemetry (`db_store.py`):** Persists experiment runs (`model_runs`) and synchronizes `city_hotspots` and `hourly_hotspots` tables in `artifacts/rarif.duckdb` using atomic `CREATE OR REPLACE TABLE` statements to prevent tuple-deletion conflicts across Streamlit reruns.
-* **🎛️ Interactive Dashboard (`app.py`):** Provides a **0–100 Composite Risk Index gauge**, preset scenarios, **What-If counterfactual baseline delta**, **factor sensitivity analysis**, **actionable safety advisories**, **corridor & hourly hotspot charts**, **geospatial scatter visualization**, **SHAP & model diagnostics**, and **JSON/CSV report exports**.
+* **🎛️ Interactive Dashboard (`app.py`):** Live at [https://rarif-framework.streamlit.app/](https://rarif-framework.streamlit.app/) — provides a **0–100 Composite Risk Index gauge**, preset scenarios, **What-If counterfactual baseline delta**, **factor sensitivity analysis**, **actionable safety advisories**, **corridor & hourly hotspot charts**, **geospatial scatter visualization**, **SHAP & model diagnostics**, and **JSON/CSV report exports**.
 
 ---
 
@@ -193,4 +195,4 @@ streamlit run app.py
 
 ## 👨‍💻 Author ✨
 
-**Pushkar Sharma** (`@pushkars17`) — BCA (Hons.) in AI & Data Analytics
+**Pushkar Sharma** (`@pushkars17`) — BCA (Hons.) in AI & Data Analytics · Live App: [rarif-framework.streamlit.app](https://rarif-framework.streamlit.app/)
