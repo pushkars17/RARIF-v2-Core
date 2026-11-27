@@ -1,0 +1,60 @@
+feature,mean_abs_shap
+visibility_low,1.395705
+weather_clear,0.76053596
+traffic_density_high,0.75469816
+is_peak_hour,0.721888
+traffic_density_low,0.097435735
+weather_fog,0.084688656
+visibility_medium,0.08336241
+traffic_density_medium,0.08218063
+hour_sin,0.07451225
+visibility_high,0.065119684
+longitude,0.05920694
+latitude,0.0532818
+hour_cos,0.05141522
+weather_rain,0.04099826
+temperature,0.038918465
+lanes,0.037600487
+festival_None,0.029682526
+month,0.028213648
+traffic_signal,0.016973713
+road_type_urban,0.014126706
+cause_distraction,0.013710663
+day_of_week_Thursday,0.0134858405
+season_Monsoon,0.012432676
+is_weekend,0.01224896
+road_type_highway,0.012158217
+cause_poor road,0.01194714
+day_of_week_Friday,0.011132968
+day_of_week_Tuesday,0.010863894
+high_risk_hour,0.010494549
+cause_overspeeding,0.010438858
+cause_weather,0.009830684
+season_Summer,0.0094619645
+road_type_rural,0.008986
+day_of_week_Saturday,0.008365595
+cause_drunk driving,0.0071890336
+day_of_week_Monday,0.0071779746
+city_Delhi,0.006377009
+day_of_week_Wednesday,0.0062389765
+season_Winter,0.0060859034
+season_Post-Monsoon,0.0052071423
+day_of_week_Sunday,0.005152198
+city_Hyderabad,0.0046889856
+city_Bangalore,0.0040712743
+festival_Holi,0.00401945
+festival_Eid,0.0039713685
+city_Chennai,0.003329155
+city_Pune,0.0021091024
+city_Kolkata,0.0018224921
+state_Delhi,0.0016024581
+city_Chandigarh,0.0013779387
+state_Karnataka,0.0013130545
+state_Telangana,0.0011746082
+city_Mumbai,0.0010344789
+state_Tamil Nadu,0.000976076
+state_Punjab,0.0007328296
+state_Maharashtra,0.0007017285
+festival_Diwali,0.00010455281
+state_West Bengal,2.2558495e-05
+festival_New Year,0.0
