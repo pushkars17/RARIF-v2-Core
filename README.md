@@ -155,7 +155,6 @@ RARIF-Framework/
 │   ├── city_metrics.csv              # City-level evaluation metrics
 │   └── top_shap_features.csv         # Ranked SHAP feature table
 ├── 📁 tests/
-│   ├── conftest.py                   # Pytest path setup
 │   └── test_pipeline.py              # Leakage, feature engineering & Pydantic tests
 ├── 📄 config.py                         # PipelineConfig & PredictionInput schemas
 ├── 📄 data_generator.py                 # Feature engineering, Parquet cache & split
