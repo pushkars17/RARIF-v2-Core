@@ -1,6 +1,25 @@
-pandas
-numpy
-scikit-learn
-xgboost
-shap
-matplotlib
+# Core Data & Numerical Stack
+pandas>=2.1.0
+numpy>=1.25.0
+pyarrow>=14.0.0
+
+# Validation & Local Database / Tracking
+pydantic>=2.5.0
+duckdb>=0.10.0
+
+# Machine Learning & Hyperparameter Tuning
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.2.0
+optuna>=3.5.0
+joblib>=1.3.0
+
+# Explainability & Interactive Visualization
+shap>=0.45.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Web App & Testing
+streamlit>=1.32.0
+pytest>=8.0.0
