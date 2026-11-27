@@ -1,10 +1,10 @@
-# 🚦 RARIF Framework v2 — Road Accident Risk Intelligence & Forecasting 🛣️📊
+# 🚦 RARIF-v2-Core — Road Accident Risk Intelligence & Forecasting 🛣️📊
 
 > **Pre-accident road risk intelligence, explainable AI, telemetry storage, and interactive decision-support dashboard** engineered on **20,000 Indian road accident records (2022–2025)** across **8 major Indian cities** (*Pune, Mumbai, Chandigarh, Chennai, Delhi, Bangalore, Hyderabad, Kolkata*).
 >
 > **🌐 Live Dashboard:** [https://rarif-framework.streamlit.app/](https://rarif-framework.streamlit.app/)
 
-Instead of analyzing only post-crash outcomes, **RARIF Framework v2** models **pre-incident road geometry, traffic density, weather, visibility, cyclical temporal patterns, seasonal context, festival indicators, and primary risk causes** to predict risk tiers (**Low**, **Medium**, **High**), compute a **0–100 Composite Risk Index**, rank **SHAP risk drivers**, and persist analytical tables in **DuckDB**.
+Instead of analyzing only post-crash outcomes, **RARIF-v2-Core** models **pre-incident road geometry, traffic density, weather, visibility, cyclical temporal patterns, seasonal context, festival indicators, and primary risk causes** to predict risk tiers (**Low**, **Medium**, **High**), compute a **0–100 Composite Risk Index**, rank **SHAP risk drivers**, and persist analytical tables in **DuckDB**.
 
 ---
 
@@ -145,7 +145,7 @@ weather_fog          | ███                                          0.0847
 ## 📁 Repository Structure 🗂️
 
 ```text
-RARIF-Framework/
+RARIF-v2-Core/
 ├── 📁 data/
 │   └── indian_roads_dataset.csv      # 20,000 records across 8 Indian cities (2022–2025)
 ├── 📁 artifacts/
